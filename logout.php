@@ -1,0 +1,10 @@
+<?php
+    Session_start();
+    Session_destroy();
+    header("location:/Login");
+    exit();
+?>
+<header>
+</header>
+<body>
+</body>

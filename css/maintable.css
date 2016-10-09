@@ -1,0 +1,35 @@
+table {
+color: #333; /* Lighten up font color */
+font-family: Helvetica, Arial, sans-serif; /* Nicer font */
+width: auto;
+border-collapse:
+collapse; border-spacing: 0;
+table-layout: fixed;
+}
+
+td, th { solid #CCC; height: 30px; } /* Make cells a bit taller */
+
+th {
+background: #F3F3F3; /* Light grey background */
+font-weight: bold; /* Make sure they're bold */
+}
+
+td {
+background: #FAFAFA; /* Lighter grey background */
+text-align: center; /* Center our text */
+}
+
+tr:hover{background-color:#d3d3d3 }
+td, th {  padding: 5px; width: 150px }
+
+thead tr {
+			display: block;
+			position: relative;
+width: auto;
+		}
+tbody { display: block;
+			overflow: auto;
+			width:auto;
+			height: 200px; }
+
+h1 { color: #111; font-family: 'Helvetica Neue', sans-serif; font-size: 25px; font-weight: bold; letter-spacing: -1px; line-height: 1; text-align: center; }

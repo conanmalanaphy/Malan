@@ -1,0 +1,76 @@
+body{
+    background: url("../image/background.jpg") repeat;
+
+}
+.container {
+    width: 1130px;
+    height: 1000px;
+    border: 1px solid gray;
+    padding: 25px;
+    padding-top: 100px;
+    margin: auto;
+	background: #8C8C8C;
+	-webkit-box-shadow: -6px 8px 9px 0px rgba(51, 50, 50, 0.78);
+	-moz-box-shadow:    -6px 8px 9px 0px rgba(51, 50, 50, 0.78);
+	box-shadow:         -6px 8px 9px 0px rgba(51, 50, 50, 0.78);
+	z-index: 100;
+	border-radius: 25px;
+  
+}
+
+.innerbox-level2left {
+	text-align:center;
+    display: inline-block;
+	float: left;
+    width:400px;
+    height: auto;
+    margin: 20px;
+	margin-left: 50px;
+
+}
+.innerbox-level2right {
+	text-align:center;
+    display: inline-block;
+	float: right;
+    width: 400px;
+    height: auto;
+    margin: 20px;
+	margin-right: 50px;
+}
+.innerbox-level1 {
+    display: inline-block;
+    width:1110px;
+    height: auto;
+    margin: 10px;
+	-webkit-box-shadow: -6px 8px 9px 0px rgba(51, 50, 50, 0.78);
+	-moz-box-shadow:    -6px 8px 9px 0px rgba(51, 50, 50, 0.78);
+	box-shadow:         -6px 8px 9px 0px rgba(51, 50, 50, 0.78);
+	background-color: white;
+	border-radius: 25px;
+}
+
+p.username{
+	font color: #ff0000;
+	font-family: "Times New Roman", Times, serif;
+	font-style: italic;
+}
+hr.style14 { 
+	border-top: 1px solid #8c8b8b;
+}
+#vertical 
+{
+	display: inline-block;
+	float: center;
+	padding-left: 50px;
+	width:200px;
+	height:1px;
+	background-color: black;
+	-ms-transform: rotate(90deg); /* IE 9 */
+	-webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+	transform: rotate(90deg);
+}
+p{
+    font:  bold 20px Georgia, serif;
+}
+h1 { color: #111; font-family: 'Helvetica Neue', sans-serif; font-size: 25px; font-weight: bold; letter-spacing: -1px; line-height: 1; text-align: center; }
+
